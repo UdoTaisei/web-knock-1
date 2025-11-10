@@ -63,13 +63,13 @@ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
 
 # 18. レスポンスのContent-Typeを調べる
 ## HTML
-$ curl -I https://httpbin.org
+$ curl -I https://httpbin.org  
 Content-Type: text/html; charset=utf-8
 ## JSON
-$ curl -I https://httpbin.org/json
+$ curl -I https://httpbin.org/json  
 Content-Type: application/json
 ## 画像
-$ curl -I https://httpbin.org/image/png
+$ curl -I https://httpbin.org/image/png  
 Content-Type: image/png
 
 # 19. レスポンスヘッダーとボディの違いを整理する
