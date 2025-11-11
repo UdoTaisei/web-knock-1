@@ -29,12 +29,12 @@ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
 
 
 # 12. curlコマンドでGETリクエストを送る
--X = --request
+-X = --request  
 ![curl https://httpbin.org/get](images/get.png)
 
 # 13. curlコマンドでPOSTリクエストを送る
 -H = --header  
--d = --data
+-d = --data  
 ![curl -X POST https://httpbin.org/post -H "Content-type: application/json" -d '{"name":"udo"}'](images/post.png)
 
 # 14. HTTPステータスコードを調べてまとめる
@@ -52,7 +52,7 @@ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
 5xx	サーバ側の問題  
 
 # 15. 任意のWebサイトに対してHEADリクエストを送る
--I = --head
+-I = --head  
 ![curl -I https://www.example.com](images/head.png)
 
 # 16. クエリパラメータ付きのリクエストを送る
